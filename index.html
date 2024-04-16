@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page for Conversion Tracking</title>
+</head>
+<body>
+    <h1>Welcome to the Test Page!</h1>
+    <p>This is a test page to demonstrate conversion tracking.</p>
+    <button onclick="alert('Conversion Event Triggered!')">Click Me!</button>
+    <!-- Place your conversion tracking code below -->
+    <script type="text/javascript">
+        // Example: Tracking code for a conversion event
+        document.querySelector('button').addEventListener('click', function() {
+            console.log('Conversion event tracked!');
+            // Include your tracking code snippet here to trigger on button click
+        });
+    </script>
+</body>
+</html>
